@@ -65,3 +65,8 @@ source venv/bin/activate
 pip install --no-cache-dir -r requirements.txt
 
 python -m uvicorn ragh.api.api_server:app --reload
+
+
+pip install pytesseract pdfplumber python-docx pillow speechrecognition moviepy
+pip install pydantic-settings
+
