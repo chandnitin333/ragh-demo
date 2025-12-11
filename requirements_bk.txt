@@ -1,0 +1,58 @@
+########## CORE ##########
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9
+
+########## UTILITIES ##########
+pydantic==2.7.0
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+loguru==0.7.2
+tqdm==4.66.2
+
+########## PDF / DOC / PARSING ##########
+pypdf==4.2.0
+pdfminer.six==20221105      # <— FIXED
+pdfplumber==0.9.0           # Compatible with above
+pytesseract==0.3.10
+python-docx==1.1.0
+docx2txt==0.8
+
+########## AUDIO / VIDEO ##########
+ffmpeg-python==0.2.0
+whisper==1.1.10
+pydub==0.25.1
+SpeechRecognition==3.10.1
+moviepy==1.0.3
+
+########## IMAGE PROCESSING ##########
+Pillow==10.2.0
+opencv-python==4.9.0.80
+
+########## TRANSFORMERS / NLP ##########
+transformers==4.36.2
+sentence-transformers==2.3.1
+tokenizers==0.15.1
+datasets==2.16.1
+
+########## FAISS (Vector DB) ##########
+faiss-cpu==1.7.4
+
+########## MILVUS (Optional Hybrid DB) ##########
+pymilvus==2.3.5
+
+########## DATA HANDLING ##########
+numpy==1.26.4
+pandas==2.2.1
+
+########## RAG PIPELINE ##########
+langchain==0.1.12
+langchain-community==0.0.28
+langchain-text-splitters==0.0.1
+
+########## STORAGE ##########
+sqlalchemy==2.0.29
+
+########## TESTING ##########
+pytest==8.1.1
+httpx==0.27.0
